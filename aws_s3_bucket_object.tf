@@ -4,7 +4,7 @@ resource "aws_s3_bucket_object" "aws-cloud-automation-meetup-s3-file" {
   source = "test.txt"
   acl = "public-read"
 
-  tags {
+  tags = {
     Owner = ""
     Project = ""
   }
