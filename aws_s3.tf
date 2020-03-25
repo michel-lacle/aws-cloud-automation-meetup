@@ -4,7 +4,7 @@ resource "aws_s3_bucket" "aws-cloud-automation-meetup-s3" {
 
   acl = "private"
 
-  tags {
+  tags = {
     Owner = "terraform-aws-cloud-automation-meetup"
     Project = "aws-cloud-automation-meetup"
   }
