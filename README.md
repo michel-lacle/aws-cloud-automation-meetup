@@ -6,6 +6,7 @@ To code along with this demo, you'll need to:
 * create an account on AWS, Terraform Cloud, Github, and Slack. 
 * you'll need to setup ssh on Github so that you can push changes to Github
 * download PyCharm CE and install the Terraform plugin, this is so that you can have Terraform auto-complete, not required, but good to have.
+* clone this repo so that you can have the example locally.
 
 ## Technologies 
 * Amazon Web Services(AWS)
