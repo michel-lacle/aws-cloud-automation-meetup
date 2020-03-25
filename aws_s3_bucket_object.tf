@@ -5,7 +5,7 @@ resource "aws_s3_bucket_object" "aws-cloud-automation-meetup-s3-file" {
   acl = "public-read"
 
   tags = {
-    Owner = ""
-    Project = ""
+    Owner = "terraform-aws-cloud-automation-meetup"
+    Project = "aws-cloud-automation-meetup"
   }
 }
