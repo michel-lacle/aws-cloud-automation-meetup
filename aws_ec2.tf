@@ -29,6 +29,8 @@ resource "aws_instance" "aws-cloud-automation-meetup-ec2" {
   ami = "ami-0a887e401f7654935"
   instance_type = "t2.micro"
 
+  key_name = "aws-cloud-automation-meetup"
+
   vpc_security_group_ids = [aws_security_group.aws-cloud-automation-meetup-sg.id  ]
 
   tags = {
