@@ -33,6 +33,8 @@ resource "aws_instance" "aws-cloud-automation-meetup-ec2" {
 
   vpc_security_group_ids = [aws_security_group.aws-cloud-automation-meetup-sg.id  ]
 
+  user_data = file("install.sh")
+
   tags = {
     Owner = "terraform-aws-cloud-automation-meetup"
     Project = "aws-cloud-automation-meetup"
