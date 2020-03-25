@@ -44,3 +44,13 @@ I use Slack for Terraform build notifications.
 https://www.jetbrains.com/pycharm/download/
 
 PyCharm is an editor provided by JetBrains. I use it with the Terraform plugin for auto-complete and formatting.
+
+## Steps
+
+1. Create a Terraform Cloud workspace, connect it to Github
+2. Create AWS user, configure AWS credentials in Terraform Cloud
+3. Create a Slack channel, slack App, and incomming webhook, and configure Terraform Notification
+3. Configure the AWS provider in Terraform
+4. Create an S3 bucket
+5. Create a basic EC2 instance
+6. Create an EC2 instance with a web-server
