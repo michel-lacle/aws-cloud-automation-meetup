@@ -1,6 +1,6 @@
 # aws-cloud-automation-meetup
 
-## getting stared
+## Getting started
 
 To code along with this demo, you'll need to:
 * create an account on AWS, Terraform Cloud, Github, and Slack. 
