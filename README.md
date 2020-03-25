@@ -1,10 +1,18 @@
 # aws-cloud-automation-meetup
 
 ## Technologies 
+* Amazon Web Services(AWS)
 * Terraform Cloud
 * Github
 * Slack
 * PyCharm CE
+
+
+### Amazone Web Services(AWS)
+
+https://aws.amazon.com/
+
+This is our cloud infrastructure provider.
 
 ### Terraform Cloud
 
