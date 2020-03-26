@@ -58,7 +58,7 @@ PyCharm is an editor provided by JetBrains. I use it with the Terraform plugin f
 ## Additional Resources
 * S3 Templates: https://github.com/papiamento/terraform-templates-aws-s3
 * EC2 Templates: https://github.com/papiamento/terraform-templates-aws-ec2
-* Youtube Videos: 
+* Youtube Video: https://www.youtube.com/watch?v=dB9UdzZo5VA
 
 ## Questions
 * Can you use federate users with Terraform Cloud?
